@@ -8,6 +8,7 @@
 .bg-black {
     background-color: black;
 }
+
 h1 {
     font-size: 8rem;
     text-align: center;
@@ -15,4 +16,46 @@ h1 {
 }
 .txt-white {
     color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#buzzfizz div {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.buzzStyle, .buzzfizzStyle, .fizzStyle, .standard {
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+#buzzfizz {
+    margin-top : 2rem;
+}
+
+.buzzfizzStyle {
+    color: black;
+    background-color:  rgb(1, 132, 23);
+}
+
+.standard {
+    color: rgb(1, 132, 23);
+}
+
+.buzzStyle {
+    color: rgb(4, 172, 233);
+}
+
+.fizzStyle {
+    color: rgb(238, 205, 38);
+
 }
