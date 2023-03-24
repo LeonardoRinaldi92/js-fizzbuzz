@@ -11,11 +11,24 @@
 
 h1 {
     font-size: 8rem;
-    text-align: center;
     font-weight: 100;
 }
+
+.txt-centre {
+    text-align: center;
+    margin-top: 3rem;
+}
+
 .txt-white {
     color: white;
+}
+
+.btn-start {
+    text-decoration: none;
+    font-size: 12rem;
+    padding: 1rem 6rem;
+    border: 5px solid white;
+    color: chartreuse;
 }
 
 .flex {
@@ -58,4 +71,10 @@ h1 {
 .fizzStyle {
     color: rgb(238, 205, 38);
 
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    99% {opacity: 0;}
+    100% {opacity: 1;}
 }
