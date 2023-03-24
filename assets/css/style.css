@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'VT323', monospace;
+}
+
+.bg-black {
+    background-color: black;
+}
+h1 {
+    font-size: 8rem;
+    text-align: center;
+    font-weight: 100;
+}
+.txt-white {
+    color: white;
+}
