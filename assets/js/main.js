@@ -4,7 +4,7 @@ function test() {
         let css;
       
         if (x % 3 === 0 && x % 5 === 0) {
-          whatAppear = 'BUZZFIZZ'
+          whatAppear = 'FIZZBUZZ'
           css = 'buzzfizzStyle'
         } else if (x % 5 === 0) {
           whatAppear = 'FIZZ'

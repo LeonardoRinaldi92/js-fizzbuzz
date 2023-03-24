@@ -28,7 +28,10 @@ h1 {
     font-size: 12rem;
     padding: 1rem 6rem;
     border: 5px solid white;
-    color: chartreuse;
+    color: rgb(4, 172, 233);
+    animation-name: startbutton;
+    animation-duration:  4s;
+    animation-iteration-count: infinite;
 }
 
 .flex {
@@ -77,4 +80,10 @@ h1 {
     0% {opacity: 0;}
     99% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes startbutton {
+    50% {color: rgb(238, 205, 38);
+    }
+    
 }
