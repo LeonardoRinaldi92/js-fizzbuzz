@@ -19,7 +19,6 @@ function test() {
       
           let element = document.createElement("div");
           element.appendChild(document.createTextNode(whatAppear));
-          element.style
           element.style.animation = "fadein " + (x /12) + "s ";
           element.classList.add(css);
           document.getElementById('buzzfizz').appendChild(element);
